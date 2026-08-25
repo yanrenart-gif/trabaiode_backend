@@ -6,15 +6,15 @@ public class SistemaBancario {
      
         Scanner scanner = new Scanner(System.in);
         
-        double saldo = 110.0;
+        double saldo = 100.0;
         boolean executando = true;
 
         while (executando) {
-            System.out.println("\n--- MENU BANCÁRIO ---");
-            System.out.println("1. Depositar");
-            System.out.println("2. Sacar");
-            System.out.println("3. Extrato");
-            System.out.println("4. Sair");
+            System.out.println("======== BEM VINDO AO BANCO=========");
+            System.out.println("Digite 1 para Depositar");
+            System.out.println("Digite 2 para Sacar");
+            System.out.println("Digite 3 para Extrato");
+            System.out.println("Digite 4 para Sair");
             System.out.print("Escolha uma opção: ");
 
             int opcao = scanner.nextInt();
